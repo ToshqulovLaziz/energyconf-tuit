@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { headerTopNavbarData } from "../../Utils/headerTopNavbarData";
 import Logo from "../../assets/ihci_logo_original.png";
-import SpringerLogo from "../../assets/springerLogo.png";
+import Scopus from "../../assets/Scopus.webp";
 import TatuLogo from "../../assets/TATU_logotip.png";
 const Header = () => {
   return (
@@ -46,7 +46,7 @@ const Header = () => {
             </div>
             <div className="flex gap-2 items-center max-[850px]:pt-2 max-[850px]:gap-10">
               <img src={TatuLogo} alt="TatuLogo" className="w-[100px] max-lg:w-[80px]"/>
-              <img src={SpringerLogo} alt="SpringerLogo" className="w-[200px] max-lg:w-[150px] max-lg:h-[50px] h-[80px] max-[850px]:w-[150px] max-[850px]:h-[70px]"/>
+              <img src={Scopus} alt="Scopus" className="w-[200px]"/>
             </div>
           </div>
         </div>
