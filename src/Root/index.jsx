@@ -1,5 +1,13 @@
+import Header from "../components/Header";
+import NavbarMenu from "../components/NavbarMenu";
+
 const Root = () => {
-  return <div>Root</div>;
+  return (
+    <>
+      <Header />
+      <NavbarMenu />
+    </>
+  );
 };
 
 export default Root;
