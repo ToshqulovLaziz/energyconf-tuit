@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const IHCIConference = () => {
   return (
     <div className="pb-[50px]">
-      <div className="container max-w-full px-4 mx-auto">
+      <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto">
         <div className="mt-[40px]">
           <p className="text-xl font-bold text-blue-500">
             <Link

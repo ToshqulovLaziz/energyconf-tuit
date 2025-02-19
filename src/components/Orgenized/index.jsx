@@ -15,7 +15,7 @@ const Organied = () => {
         autoplaySpeed: 2000,
       };
   return (
-    <div className="container max-w-full px-4 mx-auto">
+    <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto">
       <div className="mt-[40px]">
         <h2 className="text-xl font-bold text-[#222222]">Organized by</h2>
         <hr className="border-t-4 border-[#5b5757] my-4" />

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CallForSponsors = () => {
   return (
-    <div className="container mx-auto px-4 flex flex-col items-center md:flex-row justify-between mt-[40px]">
+    <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto flex flex-col items-center md:flex-row justify-between mt-[40px]">
       <div className="w-full relative group">
         <div className="py-[113px] text-center text-[50px] text-white bg-call-bg bg-cover bg-no-repeat bg-neutral-300 bg-blend-multiply">
           <h2 className="text-4xl sm:text-5xl md:text-[50px]">CALL FOR SPONSORS</h2>

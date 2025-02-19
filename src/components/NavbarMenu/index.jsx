@@ -27,11 +27,11 @@ const NavbarMenu = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
 
   const toggleDropdown = (id) => {
-    setActiveDropdown(activeDropdown === id ? null : id);
+    setActiveDropdown((prev) => (prev === id ? null : id));
   };
 
   return (
-    <div className="container max-w-full px-4 mx-auto pt-4">
+    <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto pt-4">
       {/* Navbar */}
       <div className="flex justify-between items-center bg-[#1CAF07] text-[#FFFFF7] font-semibold text-[14px]">
         <ul className="hidden lg:flex relative justify-around w-full">
@@ -84,7 +84,7 @@ const NavbarMenu = () => {
                 className="flex justify-between items-center cursor-pointer"
                 onClick={() => toggleDropdown(item.id)}
               >
-                <span>{item.text}</span>
+                <Link to={item.link}>{item.text}</Link>
                 {item.selected && (
                   <span className="ml-2">
                     {activeDropdown === item.id ? "-" : "+"}

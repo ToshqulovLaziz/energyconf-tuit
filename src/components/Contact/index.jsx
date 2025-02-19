@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <div className="bg-white pt-12 pb-6">
-      <div className="container mx-auto px-4">
+      <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto">
         <h2 className="text-xl font-bold text-[#222222]">Contact Us</h2>
         <hr className="border-t-4 border-[#5b5757] my-4" />
         <div className="flex justify-between gap-12 max-lg:flex-wrap  text-base">

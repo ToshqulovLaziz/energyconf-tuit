@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
-    <div className="container max-w-full px-4 mx-auto">
+    <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto">
       <div className="flex justify-between bg-universal w-full min-h-[200px] px-4 py-3">
         <div className="flex justify-center items-center flex-col w-full text-center">
           <h2 className="text-[26px] font-bold">About ENERGYCONF 2025</h2>

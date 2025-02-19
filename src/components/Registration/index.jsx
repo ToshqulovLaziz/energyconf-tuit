@@ -1,6 +1,6 @@
 const RegistrationTable = () => {
     return (
-      <div className="container mx-auto p-4">
+      <div className="max-w-[1536px] w-full px-4 lg:px-10 mx-auto">
         <h2 className="text-2xl font-bold text-center mb-6">REGISTRATION</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full border border-gray-300 text-center text-gray-700">
