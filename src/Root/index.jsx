@@ -1,18 +1,23 @@
-import CallForSponsors from "../components/CallSponsers";
-import ContactUs from "../components/Contact";
+import { Route, Routes } from "react-router-dom";
 import Header from "../components/Header";
-import IHCIConference from "../components/IHCIConference";
+import AboutPage from "../pages/AboutPage";
+import HomePage from "../pages/HomePage";
+import ContactUs from "../components/Contact";
 import NavbarMenu from "../components/NavbarMenu";
-import RegistrationTable from "../components/Registration";
+import Hotelapge from "../pages/HotelPage";
+import TourPage from "../pages/TourPage";
 
 const Root = () => {
   return (
     <>
       <Header />
       <NavbarMenu />
-      <IHCIConference />
-      <RegistrationTable />
-      <CallForSponsors />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about-cipoc" element={<AboutPage />} />
+        <Route path="/hotel" element={<Hotelapge />} />
+        <Route path="/tour" element={<TourPage />} />
+      </Routes>
       <ContactUs />
     </>
   );
