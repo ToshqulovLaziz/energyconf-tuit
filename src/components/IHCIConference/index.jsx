@@ -16,8 +16,6 @@ const IHCIConference = () => {
           </p>
           <hr className="border-t-4 border-[#5b5757] my-4" />
         </div>
-
-        {/* Title va link */}
         <div className="text-center mb-6">
           <h2 className="text-3xl mb-3 font-bold text-red-600  max-sm:text-[20px]">
             IHCI-2022: Conference proceedings in Springer Link
@@ -32,7 +30,6 @@ const IHCIConference = () => {
         </div>
 
         <div className="flex justify-between gap-10 max-lg:flex-col">
-          {/* Matn qismi */}
           <div className="w-1/2 max-lg:w-[70%] max-md:w-full max-lg:mx-auto">
             <p className="text-justify text-[20px] text-gray-700 leading-relaxed">
               The IHCI is an annual international conference in the

@@ -49,15 +49,11 @@ const ContactUs = () => {
               </a>
               |
               <a href="#" className="hover:underline pr-4">
-                Springer.com
-              </a>
-              |
-              <a href="#" className="hover:underline pr-4">
                 Scopus Preview
               </a>
               |
               <a href="#" className="hover:underline pr-4">
-                IHCI 2021
+                ENERGYCONF 2025
               </a>
             </p>
           </div>

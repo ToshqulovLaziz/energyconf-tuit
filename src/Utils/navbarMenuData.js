@@ -6,7 +6,7 @@ export const navbarMenuData = [
     },
     {
       id: 2,
-      text: "ABOUT IHCI",
+      text: "ABOUT ENERGYCONF",
       selected: null,
     },
     {
